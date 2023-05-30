@@ -1,6 +1,6 @@
 # https://github.com/microsoft/vscode-dev-containers/blob/main/containers/python-3-miniconda/.devcontainer/base.Dockerfile
 ARG VARIANT=3
-FROM mcr.microsoft.com/vscode/devcontainers/miniconda:${VARIANT}
+FROM mcr.microsoft.com/vscode/devcontainers/anaconda:${VARIANT}
 
 # Install mamba for faster install
 ENV MAMBA_EXE="/opt/mambaforge/bin/mamba"
